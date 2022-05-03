@@ -5,11 +5,16 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "suma": "node ./src/index.js"
+    "suma": "node ./src/index.js",
+    "callback" : "node ./src/callback/c2.js"
+  },
+  "repository": {
+    "type": "git"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "json-server": "^0.17.0"
+    "json-server": "^0.17.0",
+    "xmlhttprequest": "^1.8.0"
   }
 }
